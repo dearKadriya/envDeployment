@@ -1,4 +1,5 @@
 import './css/style.css';
+import App from './app.jsx'
 
 import './js/app';
 

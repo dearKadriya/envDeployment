@@ -9,6 +9,9 @@ module.exports = {
     publicPath: '/',
   },
   module: {
+    resolve: {
+      extensions: ['.js', '.jsx']
+    },
     rules: [
       {
         test: /\.js$/,
